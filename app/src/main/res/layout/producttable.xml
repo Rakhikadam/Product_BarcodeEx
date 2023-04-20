@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="category"
+        android:id="@+id/Tcategory"
+        android:textColor="@color/black"
+        ></TextView>
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="category"
+        android:id="@+id/Tsubcategory"
+        android:textColor="@color/black"
+        ></TextView>
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="category"
+        android:id="@+id/Tbrand"
+        android:textColor="@color/black"
+        ></TextView>
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="category"
+        android:id="@+id/Tmodel"
+        android:textColor="@color/black"
+        ></TextView>
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="category"
+        android:id="@+id/Tproduct"
+        android:textColor="@color/black"
+        ></TextView>
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="category"
+        android:id="@+id/Tstatus"
+        android:textColor="@color/black"
+        ></TextView>
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="category"
+        android:id="@+id/Tcount"
+        android:textColor="@color/black"
+        ></TextView>
+
+</LinearLayout>

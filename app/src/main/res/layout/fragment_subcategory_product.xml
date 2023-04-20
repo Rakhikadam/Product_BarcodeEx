@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".subcategory_product">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Spinner
+        android:id="@+id/category1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="category"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        ></Spinner>
+    <EditText
+        android:id="@+id/subcategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="sub-category"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        ></EditText>
+    <Button
+        android:id="@+id/savesub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save"
+        ></Button>
+</LinearLayout>

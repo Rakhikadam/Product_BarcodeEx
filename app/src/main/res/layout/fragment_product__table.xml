@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/linearproduct"
+    tools:context=".Product_Table">
+
+    <!-- TODO: Update blank fragment layout -->
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          >
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/spinner1"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg"
+        ></Spinner>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/spinner2"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg"
+        android:layout_marginBottom="10dp"
+        ></Spinner>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/spinner3"
+        android:background="@drawable/bg"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        ></Spinner>
+
+          <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/spinner4"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg"
+        android:layout_marginBottom="10dp"
+        ></Spinner>
+          <AutoCompleteTextView
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:id="@+id/spinner6"
+              android:layout_marginTop="20dp"
+              android:layout_marginBottom="10dp"
+              android:background="@drawable/bg"
+              ></AutoCompleteTextView>
+
+
+
+          <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/MRP"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg"
+            android:layout_marginTop="20dp"
+            android:hint="MRP Price"
+            android:inputType="number"
+            android:paddingLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            ></EditText>
+        <EditText
+            android:id="@+id/stockin"
+            android:hint="Stock In Price"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="20dp"
+            android:inputType="number"
+            ></EditText>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:hint="count"
+        ></TextView>
+    <Button
+        android:id="@+id/generateQR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate QR"
+        ></Button>
+      </LinearLayout>
+  </ScrollView>
+</LinearLayout>

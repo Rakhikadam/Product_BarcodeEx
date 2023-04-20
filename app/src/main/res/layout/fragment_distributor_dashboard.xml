@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Distributor_dashboard">
+
+    <!-- TODO: Update blank fragment layout -->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      >
+      <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Generate QR"
+       android:id="@+id/button"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       ></Button>
+
+    <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="add category"
+       android:id="@+id/button1"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       ></Button>
+    <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="sub category"
+       android:id="@+id/button2"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       ></Button>
+    <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="brand name"
+       android:id="@+id/button3"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       ></Button>
+
+
+      <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="add Model"
+       android:id="@+id/button4"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       ></Button>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="add name"
+          android:id="@+id/buttonname"
+          android:layout_marginTop="20dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          ></Button>
+
+
+  </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame2"
+        ></FrameLayout>
+
+   </RelativeLayout>
